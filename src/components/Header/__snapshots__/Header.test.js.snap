@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Renders the component 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ gCFjPG w-full bg-black py-5 text-center mb-10"
+  >
+    <a
+      aria-current="page"
+      href="/"
+    >
+      Star Wars - Movies
+    </a>
+  </div>
+</div>
+`;

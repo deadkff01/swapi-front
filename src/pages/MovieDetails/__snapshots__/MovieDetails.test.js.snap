@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDetails component renders the component 1`] = `
+<div
+  class="sc-bdfBwQ bqIkDZ flex flex-wrap justify-center"
+  data-testid="container"
+>
+  <button
+    class="sc-iBPRYJ kHBhhI mt-5"
+    data-testid="movie-card"
+  >
+    &lt; 
+     Back
+  </button>
+  <div
+    class="w-full text-center px-5"
+  >
+    <h1
+      class="sc-gsTCUz jRsOeS text-4xl"
+    />
+    <div
+      class="sc-dlfnbm gcQIRF movie-image-undefined mx-auto"
+    />
+  </div>
+  <div
+    class="lg:flex "
+  >
+    <div
+      class="md:w-full lg:w-2/4 text-left text-lg px-5 mb-10"
+    >
+      <h1
+        class="sc-gsTCUz kNejxW text-3xl"
+      >
+        Opening Crawl
+      </h1>
+      <div />
+    </div>
+    <div
+      class="md:w-full lg:w-2/4 text-left px-5  text-lg  mb-10"
+    >
+      <h1
+        class="sc-gsTCUz kNejxW text-3xl"
+      >
+        Informations
+      </h1>
+      <div>
+        Director: 
+      </div>
+      <div>
+        Producer: 
+      </div>
+      <div>
+        Release date: 
+      </div>
+    </div>
+  </div>
+</div>
+`;

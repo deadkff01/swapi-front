@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies component renders the component 1`] = `
+<div
+  class="sc-bdfBwQ bqIkDZ flex flex-wrap justify-center mb-10"
+  data-testid="container"
+/>
+`;

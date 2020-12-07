@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterList component Renders the component 1`] = `
+<div
+  class="w-full mb-16"
+  data-testid="characters-container"
+>
+  <h1
+    class="sc-bdfBwQ cfzmeu px-5 text-3xl"
+  >
+    Characters
+  </h1>
+  <div
+    class="lg:flex flex-wrap justify-center mb-10"
+  />
+  <h1
+    class="sc-bdfBwQ emyghO text-md"
+  >
+    Carregando personagens...
+  </h1>
+  <div
+    class="flex justify-center"
+  >
+    <button
+      class="sc-gsTCUz fLKFAS"
+      data-testid="load-more-button"
+    >
+      load more
+    </button>
+  </div>
+</div>
+`;
