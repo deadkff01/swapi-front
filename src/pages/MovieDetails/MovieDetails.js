@@ -41,7 +41,7 @@ export default function MovieDetails() {
         className="flex flex-wrap justify-center"
       >
         <BackButton />
-        <div className="w-full text-center px-5">
+        <div className="w-full text-center px-5 mb-5">
           <Title className="text-4xl" align="center">
             {movie.title}
           </Title>
