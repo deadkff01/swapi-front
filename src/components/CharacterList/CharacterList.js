@@ -2,9 +2,10 @@ import { useEffect, useState, useCallback } from 'react';
 import { useHttpInstance } from 'services/baseService';
 import { Title } from 'components/Title';
 import { ButtonLoadMore, CharacterCard } from './style';
+import { ErrorWarning } from 'components/ErrorWarning';
 
 export default function CharacterList({ characterList }) {
-  const { post, response, loading } = useHttpInstance();
+  const { post, response, error, loading } = useHttpInstance();
   const [peopleList, setPeopleList] = useState([]);
   const [lastIndex, setLastIndex] = useState(0);
 
@@ -47,6 +48,10 @@ export default function CharacterList({ characterList }) {
       setPeopleList((p) => [...p, ...people]);
     }
   };
+
+  if (error) {
+    return <ErrorWarning message="Unable to load characters" />;
+  }
 
   return (
     <div className="w-full mb-16" data-testid="characters-container">

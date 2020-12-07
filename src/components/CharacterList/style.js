@@ -33,6 +33,7 @@ export function CharacterCard({ character }) {
     <CharacterCardStyle
       className="mt-5 md:w-full lg:w-1/3"
       data-testid="character-card"
+      title={character.name}
     >
       <Link to={`/character/${character.url.split('/')[5]}`}>
         <Title className="text-2xl">{character.name}</Title>

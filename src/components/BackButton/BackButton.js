@@ -17,11 +17,10 @@ export const BackButtonStyle = styled.button`
   height: 28px;
   padding-left: 33px;
   text-align: left;
-  background-position-x: 0px;
-  background-size: 30px;
-  border: none;
-  background-repeat: no-repeat;
   cursor: pointer;
+  outline: none !important;
+  border: none;
+
   &:hover {
     text-decoration: underline;
   }

@@ -6,7 +6,7 @@ exports[`MovieDetails component renders the component 1`] = `
   data-testid="container"
 >
   <button
-    class="sc-iBPRYJ kHBhhI mt-5"
+    class="sc-iBPRYJ fNSILO mt-5"
     data-testid="movie-card"
   >
     &lt; 

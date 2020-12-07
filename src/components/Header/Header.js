@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { Link } from '@reach/router'
+import styled from 'styled-components';
+import { Link } from '@reach/router';
 
 const HeaderStyle = styled.div`
   font-family: 'STARWARS';
@@ -12,12 +12,12 @@ const HeaderStyle = styled.div`
   cursor: pointer;
   text-transform: uppercase;
   opacity: 0.9;
-`
+`;
 
 export default function Header() {
   return (
     <HeaderStyle className="w-full bg-black py-5 text-center mb-10">
-      <Link to="/">Star Wars - Movies</Link>
+      <Link to="/">Star Wars Movies</Link>
     </HeaderStyle>
-  )
+  );
 }

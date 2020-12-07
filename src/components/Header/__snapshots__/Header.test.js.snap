@@ -9,7 +9,7 @@ exports[`Header component Renders the component 1`] = `
       aria-current="page"
       href="/"
     >
-      Star Wars - Movies
+      Star Wars Movies
     </a>
   </div>
 </div>

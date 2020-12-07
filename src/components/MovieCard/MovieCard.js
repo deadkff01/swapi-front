@@ -20,7 +20,11 @@ const CardStyle = styled.div`
 
 export default function MovieCard({ movieInfo, index }) {
   return (
-    <CardStyle className="mt-5" data-testid="movie-card">
+    <CardStyle
+      className="mt-5"
+      data-testid="movie-card"
+      title={movieInfo.title}
+    >
       <Link to={`/movie/${index}`}>
         <PosterImage className={`movie-image-${movieInfo.episode_id}`} />
         <Title className="text-2xl">{movieInfo.title}</Title>

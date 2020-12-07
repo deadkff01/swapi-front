@@ -6,7 +6,7 @@ exports[`CharacterDetails component renders the component 1`] = `
   data-testid="container"
 >
   <button
-    class="sc-eCssSg cgjOyw mt-5"
+    class="sc-eCssSg gfCrVO mt-5"
     data-testid="movie-card"
   >
     &lt; 

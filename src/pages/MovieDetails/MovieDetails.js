@@ -45,7 +45,10 @@ export default function MovieDetails() {
           <Title className="text-4xl" align="center">
             {movie.title}
           </Title>
-          <PosterImage className={`movie-image-${movie.episode_id} mx-auto`} />
+          <PosterImage
+            title={movie.title}
+            className={`movie-image-${movie.episode_id} mx-auto`}
+          />
         </div>
         <div className="lg:flex ">
           <div className="md:w-full lg:w-2/4 text-left text-lg px-5 mb-10">
