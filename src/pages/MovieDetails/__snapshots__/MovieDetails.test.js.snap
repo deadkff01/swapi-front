@@ -13,10 +13,10 @@ exports[`MovieDetails component renders the component 1`] = `
      Back
   </button>
   <div
-    class="w-full text-center px-5"
+    class="w-full text-center px-5 mb-5"
   >
     <h1
-      class="sc-gsTCUz jRsOeS text-4xl"
+      class="sc-gsTCUz ipzQyr text-4xl"
     />
     <div
       class="sc-dlfnbm gcQIRF movie-image-undefined mx-auto"
@@ -29,7 +29,7 @@ exports[`MovieDetails component renders the component 1`] = `
       class="md:w-full lg:w-2/4 text-left text-lg px-5 mb-10"
     >
       <h1
-        class="sc-gsTCUz kNejxW text-3xl"
+        class="sc-gsTCUz hZPDCb text-3xl"
       >
         Opening Crawl
       </h1>
@@ -39,7 +39,7 @@ exports[`MovieDetails component renders the component 1`] = `
       class="md:w-full lg:w-2/4 text-left px-5  text-lg  mb-10"
     >
       <h1
-        class="sc-gsTCUz kNejxW text-3xl"
+        class="sc-gsTCUz hZPDCb text-3xl"
       >
         Informations
       </h1>

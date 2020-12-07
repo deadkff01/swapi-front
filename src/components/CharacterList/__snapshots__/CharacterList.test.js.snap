@@ -6,7 +6,7 @@ exports[`CharacterList component Renders the component 1`] = `
   data-testid="characters-container"
 >
   <h1
-    class="sc-bdfBwQ cfzmeu px-5 text-3xl"
+    class="sc-bdfBwQ dvefKP px-5 text-3xl"
   >
     Characters
   </h1>
@@ -14,7 +14,7 @@ exports[`CharacterList component Renders the component 1`] = `
     class="lg:flex flex-wrap justify-center mb-10"
   />
   <h1
-    class="sc-bdfBwQ emyghO text-md"
+    class="sc-bdfBwQ bZvnYH text-md"
   >
     Carregando personagens...
   </h1>

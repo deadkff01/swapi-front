@@ -6,7 +6,7 @@ exports[`CharacterDetails component renders the component 1`] = `
   data-testid="container"
 >
   <button
-    class="sc-jSgupP clJdMh mt-5"
+    class="sc-eCssSg cgjOyw mt-5"
     data-testid="movie-card"
   >
     &lt; 
@@ -16,7 +16,7 @@ exports[`CharacterDetails component renders the component 1`] = `
     class="w-full text-center px-5 mb-5"
   >
     <h1
-      class="sc-gsTCUz jRsOeS text-4xl"
+      class="sc-gsTCUz ipzQyr text-4xl"
     />
     <div
       class="flex mb-5 justify-center"
@@ -25,7 +25,7 @@ exports[`CharacterDetails component renders the component 1`] = `
         class="text-center text-lg px-5"
       >
         <h1
-          class="sc-gsTCUz jRsOeS text-3xl"
+          class="sc-gsTCUz ipzQyr text-3xl"
         >
           Character Details
         </h1>
